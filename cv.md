@@ -7,3 +7,9 @@
 - Email: cypernk@gmail.com
 - GitHub: [pronkl](https://github.com/pronkl)
 - VK.com: [krillks](https://vk.com/krillks)
+
+# About Me:
+
+I am 27 years old, I want to learn frontend development and JS.
+
+I have good communication skills, sociable, teachable and want to learn. I am responsible for the work given to me and I am responsible myself.
