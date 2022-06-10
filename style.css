@@ -1,3 +1,57 @@
 body {
     margin: 0;
+    padding: 0;
+    font-family: 'Nuosu SIL', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.avatar {
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 15px rgb(5, 0, 0);
+}
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-item a {
+    color: blueviolet;
+    text-decoration:  none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: blue;
+}
+
