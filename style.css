@@ -5,54 +5,94 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
-    color: rgb(48, 14, 240);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    color: rgb(101, 74, 255);
 }
 .containerbody {
-    max-width: 300px;
-    margin: auto;
+    display: flex;
+    align-content: center;
+
 }
 
 .avatar {
-    width: 150px;
-    border-radius: 30px;
-    box-shadow: 6px 6px 15px rgb(5, 0, 0);
+    width: 160px;
+    border-radius: 45px;    
+    padding-top: 10px;
 }
+.avatartable {
+    border: 10px solid rgb(255, 95, 84);
+    width: 192px;
+padding: 0 5px;
+border-radius: 50px;
+background-color: rgb(112, 150, 255);
+
+}
+
 * {
     box-sizing: border-box;
   }
+ .section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center
+ }
 
 .header {
-    border: 1px solid red;
+    margin-top: 0px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .main {
-    border: 1px solid red;
+    margin: 0 auto;
+    max-width: 1000px;
 }
-
 .footer {
-    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    max-width: 1000px;
+    background-color: rgb(163, 243, 97);
+    }
+    .containerfooter {
+        display: flex;
+        justify-content: space-between;
+    }
+    .data {
+        margin-top: 50px;
+        padding: 0 20px;
+        color: black;
+    }
+.TheRollingScopesSchool {
+    width: 200px;
+    height: 100px;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(250, 242, 232);
+    box-shadow: 6px 6px 5px yellow;
 }
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding: 0 20px;
+    padding: 0 1000px;
     line-height: 50px;
     transition: .3s;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: brown;
 }
 
 html {
     scroll-behavior: smooth;
-    background-image: url("./assets/Background.jpg");
+    background-color: rgb(175, 250, 225);
     background-size:100%;
     background-repeat: no-repeat;
 }
@@ -73,4 +113,38 @@ html {
 .section {
     width: 50%;
 }
+}
+
+h2 {
+    justify-content: space-between;
+    padding: 0 50px;
+    color: blueviolet;
+}
+
+p {
+    justify-content: space-between;
+    padding: 0 30px;
+    color: black;
+}
+h1 {
+    margin: 50px;
+    padding: 0 30px;
+}
+
+.vk {
+    list-style-image: url(assets/icons/VK.png);
+}
+.Git {
+    list-style-image: url(assets/icons/Git.png);
+}
+.email {
+    list-style-image: url(assets/icons/email.png);
+}
+
+li {
+    color: black;
+}
+.languages { 
+    padding: 0 30px;
+    list-style-type:circle
 }
