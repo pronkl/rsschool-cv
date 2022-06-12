@@ -126,8 +126,13 @@ p {
     padding: 0 30px;
     color: black;
 }
+.CV {
+    justify-content: center;
+    display: flex;
+}
 h1 {
-font-size: 0.5cm;
+font-size: 1.5cm;
+color: rgb(5, 39, 26);
 }
 
 .vk {
